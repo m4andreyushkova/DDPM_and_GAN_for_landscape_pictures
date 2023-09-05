@@ -1,6 +1,6 @@
 # DDPM_and_GAN_for_landscape_pictures
 
-In this notebook I implemented DDPM from [this](https://arxiv.org/abs/2006.11239) article and GAN with convolutional layers for landscape pictures generation. [This](https://www.kaggle.com/datasets/arnaud58/landscape-pictures) dataset was used for training.
+In [this](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/blob/main/DDPM_landscapes.ipynb) notebook I implemented DDPM from [this](https://arxiv.org/abs/2006.11239) article for lanscape pictures generation. And in [this](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/blob/main/GAN_for_landscape_pictures.ipynb) notebook I implemented GAN with convolutional layers for the same task. [This](https://www.kaggle.com/datasets/arnaud58/landscape-pictures) dataset was used for training.
 
 As for GAN, both the discriminator and the generator consist of 4 convolutional blocks, each having a structure of 'convolutional layer + batch normalization + Leaky ReLU'. The final convolutional layer uses hyperbolic tangent or sigmoid activation. There are no pooling or fully connected layers. 
 
