@@ -8,6 +8,10 @@ Below are the GAN's training results over 200 epochs:
 
 ![](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/assets/126197652/bd91872d-1d8b-4cc9-b01d-f13fc01f29c4)
 
-As for DDPM, it uses a linear scheduler for betas and UNet architecture for predicting noise. Unet also includes sinusoidal position embeddings to encode t.
+As for DDPM, it uses a linear scheduler for betas and UNet architecture with skip connections for predicting noise. UNet also includes sinusoidal position embeddings to encode t.
 
-Below are the DDPM's training results over 200 epochs
+Below are the DDPM's training results over 200 epochs:
+
+![](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/assets/126197652/de7f2dc8-8937-46b6-85f3-f410ab7cb0d9)
+
+GAN has shown better results, as can be seen both in the generated images and in the value of the FID metric (1081.0 vs 6857.2).
