@@ -14,4 +14,4 @@ Below are the DDPM's training results over 200 epochs:
 
 ![](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/assets/126197652/de7f2dc8-8937-46b6-85f3-f410ab7cb0d9)
 
-GAN has shown better results, as can be seen both in the generated images and in the value of the FID metric. DDPM could have shown better results, but it would require more epochs and, therefore, computational power.
+GAN has shown better results, as can be seen both in the generated images and in the value of the FID metric. DDPM could have shown better results, but it would require more epochs and, therefore, larger computing power.
