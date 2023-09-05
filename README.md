@@ -4,7 +4,9 @@ In this notebook I implemented DDPM from [this](https://arxiv.org/abs/2006.11239
 
 As for GAN, both the discriminator and the generator consist of 4 convolutional blocks, each having a structure of 'convolutional layer + batch normalization + Leaky ReLU'. The final convolutional layer uses hyperbolic tangent or sigmoid activation. There are no pooling or fully connected layers. 
 
-Below are the GAN's training results over 200 epochs  
+Below are the GAN's training results over 200 epochs:
+
+![](https://github.com/m4andreyushkova/DDPM_and_GAN_for_landscape_pictures/assets/126197652/bd91872d-1d8b-4cc9-b01d-f13fc01f29c4)
 
 As for DDPM, it uses a linear scheduler for betas and UNet architecture for predicting noise. Unet also includes sinusoidal position embeddings to encode t.
 
